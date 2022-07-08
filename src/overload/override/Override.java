@@ -1,6 +1,6 @@
 package overload.override;
 
-public class MainClass {
+public class Override {
 	public static void main(String[] args) {
 		Appliance appliance = new Toaster();
 //		appliance.close();
