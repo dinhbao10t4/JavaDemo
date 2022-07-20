@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.*;
 
 public class Songs {
     public List<Song> getSongs() {
-        return new ArrayList() {{
+        return new ArrayList<Song>() {{
             add(new Song("$10", "Hitchhiker", "Electronic", 2016, 183));
             add(new Song("Havana", "Camila Cabello", "R&B", 2017, 324));
             add(new Song("Cassidy", "Grateful Dead", "Rock", 1972, 123));
@@ -73,5 +73,4 @@ public class Songs {
             System.out.println("No songs found by: " + artist);
         }
     }
-
 }
